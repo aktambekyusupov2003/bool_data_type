@@ -12,7 +12,6 @@ void main() {
     return a >= 0;
   }
 
-  void main() {}
   void main1() {
     print(func(20));
   }
