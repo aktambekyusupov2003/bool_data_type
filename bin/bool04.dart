@@ -7,4 +7,12 @@
         bool
     */
 
-void main() {}
+void main() {
+  bool func(int a) {
+    return a > -5;
+  }
+
+  void main() {
+    print(func(10));
+  }
+}
