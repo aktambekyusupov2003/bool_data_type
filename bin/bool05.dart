@@ -9,7 +9,7 @@
 
 void main() {
   bool func(int x) {
-    return x / 7 == 5;
+    return x / 7 == 8;
   }
 
   void main() {
