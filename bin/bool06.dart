@@ -9,10 +9,10 @@
 
 void main() {
   bool func(int a) {
-    return a % 2 == 0;
+    return a % 4 == 0;
   }
 
   void main() {
-    print(func(3));
+    print(func(6));
   }
 }
