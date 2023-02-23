@@ -13,6 +13,6 @@ void main() {
   }
 
   void main() {
-    print(func(3));
+    print(func(9));
   }
 }
