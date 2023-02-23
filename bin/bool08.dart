@@ -8,15 +8,11 @@
     */
 
 void main() {
-  bool func(int a) {
-    return ((a) == int);
-    return a >= 0;
+  bool func(int a, int b) {
+    return a != b;
   }
 
   void main() {
-    int son = 5;
-    print(son);
-
-    print(func(5));
+    print(func(2, 4));
   }
 }

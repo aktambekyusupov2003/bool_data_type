@@ -14,6 +14,6 @@ void main() {
   }
 
   void main() {
-    print(func(4, 7));
+    print(func(8, 6));
   }
 }

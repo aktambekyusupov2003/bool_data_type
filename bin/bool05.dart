@@ -8,11 +8,11 @@
     */
 
 void main() {
-  bool func(int x) {
-    return x / 7 == 8;
+  bool func(int a) {
+    return a % 2 != 0;
   }
 
   void main() {
-    print(func(8));
+    print(func(3));
   }
 }

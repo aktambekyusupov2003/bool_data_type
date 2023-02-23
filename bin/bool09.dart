@@ -9,10 +9,10 @@
 
 void main() {
   bool func(int a) {
-    return a >= 0;
+    return a > 0;
   }
 
-  void main1() {
-    print(func(20));
+  void main() {
+    print(func(3));
   }
 }

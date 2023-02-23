@@ -8,7 +8,7 @@
       bool
   */
 
-bool func(int a, b) {
+bool func(int a, int b) {
   return a == b;
 }
 
